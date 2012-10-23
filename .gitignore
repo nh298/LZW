@@ -1,0 +1,4 @@
+*.o
+encode
+decode
+nbproject/
