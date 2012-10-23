@@ -34,8 +34,10 @@ all: $(OBJ)
 	$(CC) $(CFLAGS) -o encode $^
 	ln -f encode decode
 
-encode: all
-decode: all
+encode: $(OBJ)
+	$(CC) $(CFLAGS) -o encode $^
+decode: $(OBJ)
+	$(CC) $(CFLAGS) -o decode $^
 
 main.o: lzw.h
 lzw.o: lzw.h stringTable.h stack.h
