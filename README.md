@@ -1,7 +1,7 @@
 # LZW
 
 An implementation in C of the Lempel-Ziv-Welch compression algorithm for Yale
-University's CS 323 course. See [Wikipedia](en.wikipedia.org/wiki/Lempel-Ziv/Welch)
+University's CS 323 course. See [Wikipedia](http://en.wikipedia.org/wiki/Lempel–Ziv–Welch)
 for an explanation of the LZW compression algorithm.
 
 Note that the files code.h and code.c, which handle the packing of bits into
