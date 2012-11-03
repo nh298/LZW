@@ -4,7 +4,7 @@ An implementation in C of the Lempel-Ziv-Welch compression algorithm for Yale
 University's CS 323 course. See [Wikipedia](http://en.wikipedia.org/wiki/Lempel–Ziv–Welch)
 for an explanation of the LZW compression algorithm.
 
-See the WinLZW branch of this repo for a graphical Windows version of LZW created with C# and WPF.
+See my WinLZW repo for a graphical Windows version of LZW created with C# and WPF.
 
 Note that the files code.h and code.c, which handle the packing of bits into
 bytes, were written by Professor Stan Eisenstat at Yale University.
